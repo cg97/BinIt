@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.currentplacedetailsonmap.graphs"
+    tools:showIn="@layout/activity_graphs">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/graph1"
+            android:id="@+id/imageView6"
+            android:layout_height="400dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Figure 1: This is a two dimensional view of the data (also known as the kernel density estimate)."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/graph2"
+            android:id="@+id/imageView7"
+            android:layout_height="400dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Figure 2: This histogram shows the dustbins located within a given distance from the current location."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/g5"
+            android:id="@+id/imageView9"
+            android:layout_height="400dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView8"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/g7"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView10"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/g6"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+</android.support.v4.widget.NestedScrollView>
